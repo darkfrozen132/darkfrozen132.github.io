@@ -11,7 +11,3 @@ var impuesto=numero1*(1+numero2/100);
 
 
 }
-
-
-
-
