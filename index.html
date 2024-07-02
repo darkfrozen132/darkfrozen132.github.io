@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Page.</p>
-    <script src="script.js"></script>
-
+<head>
+    <meta charset="UTF-8">
+    <title>Título de la página</title>
+</head>
+<body>    
+	<script src="js.js" > </script>
+	
+	<label for="nombre">Escribe el subtotal:</label>
+    <input type="text" id="numero1" name="numero1">
+    
+	
+	<label for="numero2">Escribe el porcentaje de impuesto</label>
+    <input type="text" id="numero2" name="numero2"><br><br>
+	
+	<button onclick="hallarporcentajeimpuesto()">Enviar</button>
+	<p id="resultado"></p>
+	
 </body>
 </html>
